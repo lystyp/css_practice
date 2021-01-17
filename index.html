@@ -2,46 +2,104 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     </head>
         <title>Daniel's simple introduction.</title>
         <style type="text/css">
             .head{
-                background-color: blueviolet;
+                background-color: rgb(158, 87, 224);
                 color:white;
                 font-size: 30px;
                 font-weight: bold;
                 text-align: center;
-                padding: 1-px;  
+                padding: 10px;  
             }
-            .content{
-                margin-left: auto;
-                margin-right: auto;
-                border: dashed 3px gray;
-                width: 1000px; 
+            .block{
+                padding: 15px;
+                border-bottom: dashed 1px gray;
             }
-            .box{
-                display: inline-block;
-                vertical-align: top;
-                margin: 10px;
-                padding: 10px;
-                width: 280px;
-                background-color: white;
-                text-align: center;
-                line-height: 30px;
+            .block:nth-child(even){
+                background-color: #eeeeee;
             }
             .title{
+                font-size: 20px;
                 font-weight: bold;
             }
-
-            @media screen and (max-width:600px) {
-                .content{
-                    width: 100%; 
-                }
+            .content{
+                margin-top: 10px;
+                margin-left: 30px;
+                font-size: 15px;
             }
+
         </style>
     </head>
-    <body style="margin: 0px; background-color: #eeeeee;">
-
+    <body style="margin: 0px;">
+        <div class="head">扶持計畫訓練營申請</div>
+        <div class="block">
+            <div class="title">個人簡介</div>
+            <div class="content">
+                您好，我是施建合，目前的工作是Android app的RD，<br>
+                大學時念的是電子系，學的是跟IC設計及半導體相關的知識，在學過一點FPGA相關後，覺得比起IC設計，在偏軟體方向有更大的興趣，<br>
+                後來在大四時自學C語言，在研究所時做影像觸及電腦視覺相關的演算法，算是對寫程式有初淺的概念。<br>
+                研究所畢業後的工作是Android app的介面設計，並開始接觸物件導向、版本控制、及部屬流程...等相關知識。<br>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">為什麼想成為工程師</div>
+            <div class="content">
+                在研究所的時候就非常確定自己想成為程式設計師，程式設計最吸引人的地方就在於可以完整地把自己的想法跟創意實踐出來吧!<br>
+                相較於其他產業，想要實踐一個產品需要的人力硬體或是其他相關的資源，相比寫程式成本實在太高，靈活性也較低<br>
+                且在科技產品與生活耦合這麼嚴重的現在，遇到什麼問題時，可以馬上動手寫個程式來解決，實在是很吸引人的事情吧!<br>
+                <br>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">為了成為工程師，曾經做過什麼努力？</div>
+            <div class="content">
+                在開始工作後，遇到太多問題基礎知識不足的問題了，只能在工作的同時邊google邊補洞，<br>
+                舉例來說 : 想念部屬流程，發現docker不懂，念docker發現linux不懂，念linux發現作業系統不懂.....<br>
+                發現洞其實比想像中的大，現在的規劃偏向，在工作時學習各種開發工具、下班後念計組、作業系統、演算法......等必修，<br>
+                上下夾擊期望盡快把洞給補上。<br>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">對於工程師的職業想像是什麼？</div>
+            <div class="content">
+                對工程師的理解，應該就是遇到問題然後解決問題的人吧，但其實在做了一段時間的App UI之後，覺得比起介面設計，自己更想朝雲端走，<br>
+                因為比起做App介面，一個全端工程師可以實踐的東西一定多很多很多吧!畢竟網路這麼發達，沒有好好的了解並加入它真的頗可惜。<br>
+                很剛好發現了這個課程，包刮對前後端的相關內容，比起盲目的自學，這個課程是可以學到的東西肯定更多!<br>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">如果參與這個計畫，會怎麼安排學習時間？</div>
+            <div class="content">
+                因公司工作氛圍較自由，且目前工作負擔也不算太重，計畫利用部分上班的空閒時間與下班後的時間來完成線上課程，<br>
+                並在第一階段的課程評估這樣的安排是否能夠負擔課程，<br>
+                並規劃在課程的第二階段，規劃辭職、專心完成課程及加強必修學科，以期能在半年內達到自己預期的進度。
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">如果參與這個計畫，預期會碰到什麼困難？你打算怎麼解決它？</div>
+            <div class="content">
+                預期線上課程會碰到較大的困難有三點 : <br>
+                <br>
+                1. 第一階段工作與課程需要並進，須衡量時間是否夠用，因自己沒有試過這樣的上課模式，會利用第一階段較偏基礎課程，<br>
+                隨時挑整時間規劃來適應這樣的學習方式。<br>
+                <br>
+                2. 之前在自學時常會遇到許多盲點不一定能搜尋的到解答，但課程中有老師及助教可以幫助解惑，會是一個超級大的幫助!<br>
+                <br>
+                3. 在學會某項技術後，沒有實際應用仍會有需多淺在的問題是不會注意到的，學玩了還是不知道會了什麼，<br>
+                這也是這個課程最吸引我的點，就是可以透過實作專案來討論、解決問題，這個部分會是最有收穫的部分吧我猜。<br>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">想要對我們說的事情？</div>
+            <div class="content">
+                在自學的google路上很常看到"彭彭的線上教學"，某次在某FB前端社團發現課程相關的PO文，剛好是全端相關課程，<br>
+                實在很吸引人，雖然還不知道申請會不會通過，<br>
+                我覺得可以用這樣的團體線上學習的方式很棒，且我之前沒有嘗試過這樣的課程，很躍躍欲試!<br>
+                然後這樣講偏官腔XD<br>
+                但還是謝謝你們開這樣的課程~<br>
+            </div>
+        </div>
     </body>
 </html>
